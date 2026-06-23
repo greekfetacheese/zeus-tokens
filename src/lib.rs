@@ -7,7 +7,8 @@ pub struct TokenData {
    pub name: String,
    pub symbol: String,
    pub decimals: u8,
-   pub icon_data: Vec<u8>,
+   pub icon_data_x32: Vec<u8>,
+   pub icon_data_x24: Vec<u8>,
 }
 
 impl TokenData {
@@ -17,7 +18,8 @@ impl TokenData {
       name: String,
       symbol: String,
       decimals: u8,
-      icon_data: Vec<u8>,
+      icon_data_x32: Vec<u8>,
+      icon_data_x24: Vec<u8>,
    ) -> Self {
       Self {
          chain_id,
@@ -25,7 +27,8 @@ impl TokenData {
          name,
          symbol,
          decimals,
-         icon_data,
+         icon_data_x32,
+         icon_data_x24,
       }
    }
 }

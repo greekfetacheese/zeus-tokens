@@ -6,6 +6,6 @@
 
 ## Run the binaries in the `bin` folder in the following order:
 
-1.remove_abandoned.rs
+1.remove_garbage.rs
 2.resize_icons.rs
 3.make_token_data.rs
