@@ -2,7 +2,7 @@ use alloy_primitives::Address;
 use image::codecs::png::PngEncoder;
 use std::{io::Cursor, path::PathBuf, str::FromStr};
 
-use bincode::{config::standard, encode_to_vec};
+use bincode_next::{config::standard, encode_to_vec};
 use serde::{Deserialize, Serialize};
 use zeus_tokens::TokenData;
 

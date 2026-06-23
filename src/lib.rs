@@ -1,4 +1,4 @@
-use bincode::{Decode, Encode};
+use bincode_next::{Decode, Encode};
 
 #[derive(Clone, Encode, Decode)]
 pub struct TokenData {
