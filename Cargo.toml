@@ -10,3 +10,6 @@ image = "=0.25.1"
 anyhow = "1"
 bincode-next = "3.1.1"
 alloy-primitives = "1"
+zeus-eth = "0.1.0"
+dotenv = "0.15.0"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync"] }
